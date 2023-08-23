@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import ProjectCard from './components/ProjectCard';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import './styles.css';
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
       <Header />
       <main>
         <AboutMe />
+        <h2>My Projects</h2>
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
@@ -41,7 +42,7 @@ function App() {
           />
         ))}
 
-        {/* <Contact /> */}
+        <Contact />
       </main>
     </div>
   );

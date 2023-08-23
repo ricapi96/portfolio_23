@@ -6,7 +6,9 @@ function ProjectCard(props) {
   const { title, description, technologies, imageUrl, projectUrl } = props;
 
   return (
+    
     <div className="project-card">
+        
       <img src={imageUrl} alt={title} className="project-image" />
       <div className="project-details">
         <h3 className="project-title">{title}</h3>
