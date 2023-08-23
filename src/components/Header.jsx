@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <h1>Erica Roquemore</h1>
-      <p>Frontend Developer</p>
+      <h3>Frontend Developer</h3>
     </header>
   );
 }
