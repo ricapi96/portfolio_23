@@ -9,20 +9,20 @@ import Contact from './components/Contact';
 function App() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Description of project 1.',
-      technologies: 'React, Redux',
-      imageUrl: 'path/to/image1.jpg',
-      projectUrl: 'https://github.com/yourusername/project1'
+      title: 'NoteTaker',
+      description: 'Note taker app that allows one to save a note to local storage.',
+      technologies: 'JavaScript, Express.js',
+      imageUrl: '/images/note-taker.png',
+      projectUrl: 'https://github.com/ricapi96/express-note-taker'
     },
     {
-      title: 'Project 2',
-      description: 'Description of project 2.',
-      technologies: 'Vue.js, Express',
-      imageUrl: 'path/to/image2.jpg',
-      projectUrl: 'https://github.com/yourusername/project2'
+      title: '3-Dogs',
+      description: 'A Dog website to showcase my furry friends.',
+      technologies: 'HTML, CSS, JavaScript',
+      imageUrl: '/images/three-dogs.png',
+      projectUrl: 'https://ricapi96.github.io/3-dogs/'
     },
-    // Add more projects as needed
+    // Add more projects 
   ];
 
   return (
