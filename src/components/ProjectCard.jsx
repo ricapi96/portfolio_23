@@ -1,6 +1,8 @@
 // ProjectCard.jsx
 import React from 'react';
-import './ProjectCard.css'; 
+import './ProjectCard.css';
+// icons
+// import html from '../../public/images/html.png';
 
 function ProjectCard(props) {
   const { title, description, technologies, imageUrl, projectUrl } = props;
