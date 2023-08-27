@@ -7,7 +7,7 @@ import './Contact.css';
 function Contact() {
   return (
     <section className="contact">
-      <h2>Contact Me</h2>
+      <h2 id='contact'>Contact Me</h2>
       <p>
         Have a project in mind or just want to say hi? Feel free to get in touch with me. I'm always open to new opportunities and collaborations.
       </p>

@@ -1,8 +1,10 @@
 // src/App.jsx
 import React from 'react';
 import Header from './components/Header';
+import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import ProjectCard from './components/ProjectCard';
+import Stacks from './components/Stacks';
 import Contact from './components/Contact';
 // import './styles.css';
 
@@ -28,9 +30,10 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Navbar />
       <main>
         <AboutMe />
-        <h2>My Projects</h2>
+        <h2 id='projects'>My Projects</h2>
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
@@ -41,7 +44,7 @@ function App() {
             projectUrl={project.projectUrl}
           />
         ))}
-
+        <Stacks />
         <Contact />
       </main>
     </div>

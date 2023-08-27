@@ -5,7 +5,7 @@ import './AboutMe.css'; // Import the CSS for this component
 function AboutMe() {
   return (
     <section className="about-me">
-      <h2>About Me</h2>
+      <h2 id='about'>About Me</h2>
       <p>
         Hi there! I'm Erica, a passionate frontend developer with a love for nature and animals. My journey began when I pursued a degree in computer science and engineering, where I gained a strong foundation in coding and problem-solving.
       </p>
