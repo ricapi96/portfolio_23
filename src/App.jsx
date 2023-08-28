@@ -6,7 +6,8 @@ import AboutMe from './components/AboutMe';
 import ProjectCard from './components/ProjectCard';
 import Stacks from './components/Stacks';
 import Contact from './components/Contact';
-// import './styles.css';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   const projects = [
@@ -46,6 +47,7 @@ function App() {
         ))}
         <Stacks />
         <Contact />
+        <Footer />
       </main>
     </div>
   );

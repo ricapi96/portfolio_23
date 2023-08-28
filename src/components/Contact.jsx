@@ -1,7 +1,7 @@
 // Contact.jsx
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Contact.css'; 
 
 function Contact() {
@@ -18,14 +18,7 @@ function Contact() {
       <p>
         Let's work together to bring your ideas to life!
       </p>
-      <div className="social-links">
-        <a href="https://github.com/ricapi96" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} /> GitHub
-        </a>
-        <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} /> Instagram
-        </a>
-      </div>
+      
     </section>
   );
 }
