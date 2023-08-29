@@ -12,8 +12,8 @@ function Navbar() {
         <li><ScrollLink to="about" smooth={true} duration={500}>About Me</ScrollLink></li>
         <li><ScrollLink to="projects" smooth={true} duration={500}>Projects</ScrollLink></li>
         <li><ScrollLink to="stacks" smooth={true} duration={500}>Stacks</ScrollLink></li>
-        <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li>
-        <li><RouterLink to="/images">Images Page</RouterLink></li>
+        {/* <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li> */}
+        <li><RouterLink to="/contact">Contact Me</RouterLink></li>
       </ul>
     </nav>
   );
