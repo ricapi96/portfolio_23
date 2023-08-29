@@ -1,5 +1,6 @@
 // src/App.jsx
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
@@ -7,6 +8,7 @@ import ProjectCard from './components/ProjectCard';
 import Stacks from './components/Stacks';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ImagesPage from './pages/ImagesPage';
 import './App.css';
 
 function App() {
@@ -30,25 +32,17 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
-      <Navbar />
-      <main>
-        <AboutMe />
-        <h2 id='projects'>My Projects</h2>
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            title={project.title}
-            description={project.description}
-            technologies={project.technologies}
-            imageUrl={project.imageUrl}
-            projectUrl={project.projectUrl}
-          />
-        ))}
-        <Stacks />
-        <Contact />
+      <Router>
+        <Header />
+        <Navbar />
+        <main>
+          {/* ... */}
+          <Routes>
+          <Route path="/images" element={<ImagesPage />} />
+          </Routes>
+        </main>
         <Footer />
-      </main>
+      </Router>
     </div>
   );
 }

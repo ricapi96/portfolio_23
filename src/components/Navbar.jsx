@@ -1,5 +1,6 @@
 // Navbar.jsx
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -10,6 +11,9 @@ function Navbar() {
         <li><a href="#projects">Projects</a></li>
         <li><a href="#stacks">Stacks</a></li>
         <li><a href="#contact">Contact</a></li>
+        <NavLink to="/images" className="navbar-link">
+        Images Page
+      </NavLink>
       </ul>
     </nav>
   );
