@@ -31,8 +31,9 @@ function App() {
   ];
 
   return (
+    <Router>
     <div className="app">
-      <Router>
+      
         <Header />
         <Navbar />
         <main>
@@ -42,8 +43,9 @@ function App() {
           </Routes>
         </main>
         <Footer />
-      </Router>
+      
     </div>
+    </Router>
   );
 }
 
