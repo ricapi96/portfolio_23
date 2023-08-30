@@ -1,19 +1,19 @@
 // Navbar.jsx
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#stacks">Stacks</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <NavLink to="/images" className="navbar-link">
-        Images Page
-      </NavLink>
+        <li><RouterLink to="/">Home</RouterLink></li>
+        <li><ScrollLink to="about" smooth={true} duration={500}>About Me</ScrollLink></li>
+        <li><ScrollLink to="projects" smooth={true} duration={500}>Projects</ScrollLink></li>
+        <li><ScrollLink to="stacks" smooth={true} duration={500}>Stacks</ScrollLink></li>
+        {/* <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li> */}
+        <li><RouterLink to="/contact">Contact Me</RouterLink></li>
       </ul>
     </nav>
   );

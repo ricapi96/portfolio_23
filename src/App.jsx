@@ -6,9 +6,9 @@ import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
 import ProjectCard from './components/ProjectCard';
 import Stacks from './components/Stacks';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ImagesPage from './pages/ImagesPage';
+import ContactPage from './pages/ContactPage';
 import './App.css';
 
 function App() {
@@ -31,19 +31,21 @@ function App() {
   ];
 
   return (
+    <Router>
     <div className="app">
-      <Router>
+      
         <Header />
         <Navbar />
         <main>
           {/* ... */}
           <Routes>
-          <Route path="/images" element={<ImagesPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />
-      </Router>
+      
     </div>
+    </Router>
   );
 }
 
