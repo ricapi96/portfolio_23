@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProjectsPage(props) {
+function ProjectsPage() {
   const projects = [
     {
       title: 'NoteTaker',
@@ -19,19 +19,21 @@ function ProjectsPage(props) {
     // Add more projects 
   ];
 
-  const project = projects[props.index];
-
   return (
     <div className="projects">
-      <img src={project.imageUrl} alt={project.title} className="project-image" />
-      <div className="project-details">
-        <h3 className="project-title">{project.title}</h3>
-        <p className="project-description">{project.description}</p>
-        <p className="project-technologies">Technologies used: {project.technologies}</p>
-        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="project-link">
-          View Project
-        </a>
-      </div>
+      {projects.map((project, index) => (
+        <div key={index} className="project">
+          <img src={project.imageUrl} alt={project.title} className="project-image" />
+          <div className="project-details">
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <p className="project-technologies">Technologies used: {project.technologies}</p>
+            <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="project-link">
+              View Project
+            </a>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
