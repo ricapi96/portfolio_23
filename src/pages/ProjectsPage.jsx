@@ -19,16 +19,16 @@ function ProjectsPage(props) {
     // Add more projects 
   ];
 
-  const { title, description, technologies, imageUrl, projectUrl } = props;
+  const project = projects[props.index];
 
   return (
     <div className="projects">
-      <img src={imageUrl} alt={title} className="project-image" />
+      <img src={project.imageUrl} alt={project.title} className="project-image" />
       <div className="project-details">
-        <h3 className="project-title">{title}</h3>
-        <p className="project-description">{description}</p>
-        <p className="project-technologies">Technologies used: {technologies}</p>
-        <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="project-link">
+        <h3 className="project-title">{project.title}</h3>
+        <p className="project-description">{project.description}</p>
+        <p className="project-technologies">Technologies used: {project.technologies}</p>
+        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer" className="project-link">
           View Project
         </a>
       </div>
