@@ -9,7 +9,7 @@ function Navbar() {
     <nav className="navbar">
       <ul className="nav-list">
         <li><RouterLink to="/">Home</RouterLink></li>
-        <li><ScrollLink to="about" smooth={true} duration={500}>About Me</ScrollLink></li>
+        <li><RouterLink to="/about">About Me</RouterLink></li>
         <li><ScrollLink to="projects" smooth={true} duration={500}>Projects</ScrollLink></li>
         <li><ScrollLink to="stacks" smooth={true} duration={500}>Stacks</ScrollLink></li>
         {/* <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li> */}

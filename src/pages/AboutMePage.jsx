@@ -1,8 +1,8 @@
 // AboutMe.jsx
 import React from 'react';
-import './AboutMe.css'; // Import the CSS for this component
+// import './AboutMe.css';
 
-function AboutMe() {
+function AboutMePage() {
   return (
     <section className="about-me">
       <h2 id='about'>About Me</h2>
@@ -22,7 +22,7 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default AboutMePage;
 
 
 
