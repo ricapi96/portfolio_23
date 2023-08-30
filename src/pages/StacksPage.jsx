@@ -1,6 +1,6 @@
 // Stacks.jsx
 import React from "react";
-// import "./Stacks.css";
+
 // icons
 import html from "/images/html.png";
 import css from "/images/css.png";

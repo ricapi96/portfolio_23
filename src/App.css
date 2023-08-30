@@ -1,3 +1,59 @@
+body {
+  background-color: rgb(132, 210, 246);
+}
+
+/* Header */
+header {
+  background-color: rgb(145, 229, 246);
+  text-align: center;
+}
+
+/* Navbar */
+
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+/* About Me Page */
+.about-me {
+  background-color: rgb(132, 210, 246);
+}
+
+
+/* Projects Page */
+.projects {
+  background-color: rgb(132, 210, 246);
+}
+
+
+/* Stacks Page */
+.stacks {
+  background-color: aquamarine;
+}
+
+.stacks-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stacks-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stacks-list li .stack-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Contact Page */
+.contact {
+  background-color: rgb(56, 111, 164);
+}
 
 
 /* Footer */
@@ -18,3 +74,4 @@
   width: 30px;
   height: 30px;
 }
+ 

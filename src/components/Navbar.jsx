@@ -1,7 +1,7 @@
 // Navbar.jsx
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import './Navbar.css';
+// import './Navbar.css';
 
 function Navbar() {
   return (
