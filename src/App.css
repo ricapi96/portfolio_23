@@ -1,3 +1,10 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -56,6 +63,34 @@ a:hover {
   background-color: rgb(132, 210, 246);
 }
 
+/* images */
+.big-city {
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.goose {
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.flower {
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.coke {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 
 /* Projects Page */
 .projects {
@@ -96,7 +131,7 @@ a:hover {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 20px;
 }
 
 .footer-icons {
