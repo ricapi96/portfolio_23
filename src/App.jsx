@@ -3,32 +3,15 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-import AboutMe from './components/AboutMe';
-import ProjectCard from './components/ProjectCard';
-import Stacks from './components/Stacks';
+import AboutMePage from './pages/AboutMePage';
+import ProjectsPage from './pages/ProjectsPage';
+import StacksPage from './pages/StacksPage';
 // import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ContactPage from './pages/ContactPage';
 import './App.css';
 
 function App() {
-  const projects = [
-    {
-      title: 'NoteTaker',
-      description: 'Note taker app that allows one to save a note to local storage.',
-      technologies: 'JavaScript, Express.js',
-      imageUrl: '/images/note-taker.png',
-      projectUrl: 'https://github.com/ricapi96/express-note-taker'
-    },
-    {
-      title: '3-Dogs',
-      description: 'A Dog website to showcase my furry friends.',
-      technologies: 'HTML, CSS, JavaScript',
-      imageUrl: '/images/three-dogs.png',
-      projectUrl: 'https://ricapi96.github.io/3-dogs/'
-    },
-    // Add more projects 
-  ];
 
   return (
     <Router>
@@ -36,12 +19,16 @@ function App() {
       
         <Header />
         <Navbar />
-        <main>
+        <div className='main-content'>
           {/* ... */}
           <Routes>
+          <Route path="/about" element={<AboutMePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/stacks" element={<StacksPage />} />
           <Route path="/contact" element={<ContactPage />} />
           </Routes>
-        </main>
+          </div>
+
         <Footer />
       
     </div>

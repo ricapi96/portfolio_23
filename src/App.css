@@ -1,3 +1,129 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  background-color: rgb(132, 210, 246);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: rgb(145, 229, 246);
+  text-align: center;
+}
+
+/* Navbar */
+
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+
+/* About Me Page */
+.about-me {
+  background-color: rgb(132, 210, 246);
+}
+
+/* images */
+.big-city {
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.goose {
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.flower {
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.coke {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* Projects Page */
+.projects {
+  background-color: rgb(132, 210, 246);
+}
+
+
+/* Stacks Page */
+.stacks {
+  background-color: aquamarine;
+}
+
+.stacks-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stacks-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stacks-list li .stack-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Contact Page */
+.contact {
+  background-color: rgb(56, 111, 164);
+}
 
 
 /* Footer */
@@ -5,7 +131,7 @@
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 20px;
 }
 
 .footer-icons {
@@ -18,3 +144,4 @@
   width: 30px;
   height: 30px;
 }
+ 

@@ -1,6 +1,6 @@
 // Stacks.jsx
 import React from "react";
-import "./Stacks.css";
+
 // icons
 import html from "/images/html.png";
 import css from "/images/css.png";
@@ -16,7 +16,7 @@ import mongoose from "/images/mongoose.png";
 import mongoDB from "/images/mongoDB.png";
 import react from "/images/react.png";
 
-function Stacks() {
+function StacksPage() {
   return (
     <section className="stacks">
       <h2 id="stacks">Technical Stacks</h2>
@@ -80,4 +80,4 @@ function Stacks() {
   );
 }
 
-export default Stacks;
+export default StacksPage;
