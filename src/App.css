@@ -27,11 +27,19 @@ body {
   
 }
 
+/* App Styles */
 .app {
+  background-image: url('/images/laptop.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+  z-index: 2;
 }
+
 
 /* Header */
 header {
@@ -41,6 +49,18 @@ header {
 
 /* Navbar */
 
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #5390D9;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px; 
+}
+
 li {
   list-style: none;
   padding-left: 0;
@@ -48,7 +68,7 @@ li {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #133C55;
   text-decoration: inherit;
   
 }
@@ -132,6 +152,10 @@ a:hover {
   color: white;
   text-align: center;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .footer-icons {
