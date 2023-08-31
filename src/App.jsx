@@ -19,7 +19,7 @@ function App() {
       
         <Header />
         <Navbar />
-        <main>
+        <div className='main-content'>
           {/* ... */}
           <Routes>
           <Route path="/about" element={<AboutMePage />} />
@@ -27,7 +27,8 @@ function App() {
           <Route path="/stacks" element={<StacksPage />} />
           <Route path="/contact" element={<ContactPage />} />
           </Routes>
-        </main>
+          </div>
+
         <Footer />
       
     </div>
