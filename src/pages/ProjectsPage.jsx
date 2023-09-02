@@ -1,3 +1,4 @@
+// ProjectsPage.jsx
 import React from 'react';
 
 function ProjectsPage() {
@@ -8,6 +9,27 @@ function ProjectsPage() {
       technologies: 'JavaScript, Express.js',
       imageUrl: '/images/note-taker.png',
       projectUrl: 'https://github.com/ricapi96/express-note-taker'
+    },
+    {
+      title: '3-Dogs',
+      description: 'A Dog website to showcase my furry friends.',
+      technologies: 'HTML, CSS, JavaScript',
+      imageUrl: '/images/three-dogs.png',
+      projectUrl: 'https://ricapi96.github.io/3-dogs/'
+    },
+    {
+      title: '3-Dogs',
+      description: 'A Dog website to showcase my furry friends.',
+      technologies: 'HTML, CSS, JavaScript',
+      imageUrl: '/images/three-dogs.png',
+      projectUrl: 'https://ricapi96.github.io/3-dogs/'
+    },
+    {
+      title: '3-Dogs',
+      description: 'A Dog website to showcase my furry friends.',
+      technologies: 'HTML, CSS, JavaScript',
+      imageUrl: '/images/three-dogs.png',
+      projectUrl: 'https://ricapi96.github.io/3-dogs/'
     },
     {
       title: '3-Dogs',

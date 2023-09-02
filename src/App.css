@@ -143,6 +143,10 @@ a:hover {
 /* Projects Page */
 .projects {
   background-color: rgb(132, 210, 246);
+  flex: 1;
+  min-height: 100vh;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 
