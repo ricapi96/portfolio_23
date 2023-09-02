@@ -1,4 +1,4 @@
-// Stacks.jsx
+// StacksPage.jsx
 import React from "react";
 
 // icons
@@ -17,6 +17,62 @@ import mongoDB from "/images/mongoDB.png";
 import react from "/images/react.png";
 
 function StacksPage() {
+  const stacks = [
+    {
+      name: 'HTML',
+      icon: html,
+    },
+    {
+      name: 'CSS',
+      icon: css,
+    },
+    {
+      name: 'JavaScript (ES6)',
+      icon: javascript,
+    },
+    {
+      name: 'jQuery',
+      icon: jquery,
+    },
+    {
+      name: "API's",
+      icon: api,
+    },
+    {
+      name: 'Bootstrap',
+      icon: bootstrap,
+    },
+    {
+      name: 'Express',
+      icon: express,
+    },
+    {
+      name: 'Node',
+      icon: node,
+    },
+    {
+      name: 'MySQL',
+      icon: mysql,
+    },
+    {
+      name: 'Sequelize',
+      icon: sequelize,
+    },
+    {
+      name: 'Mongoose',
+      icon: mongoose,
+    },
+    {
+      name: 'MongoDB',
+      icon: mongoDB,
+    },
+    {
+      name: 'React',
+      icon: react,
+    },
+    // Add more stacks
+  ];
+
   return (
     <section className="stacks">
       <h2 id="stacks">Technical Stacks</h2>
