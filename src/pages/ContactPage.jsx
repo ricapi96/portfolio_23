@@ -2,7 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import './Contact.css'; 
+import goose from '/images/goose.png'; 
 
 function ContactPage() {
   return (
@@ -18,8 +18,15 @@ function ContactPage() {
       <p>
         Let's work together to bring your ideas to life!
       </p>
+      <div className='pics'>
+    <img src={goose} alt="Goose cartoon" className="goose rounded-image" />
+    <hr />
+    <hr />
+    <hr />
+    </div> 
       
     </section>
+    
   );
 }
 
