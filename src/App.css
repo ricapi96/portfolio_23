@@ -51,11 +51,10 @@ body {
   padding: 10px;
 }
 
-.logo {
-  width: 40px; 
-  height: 40px; 
-  border-radius: 50%; 
-  margin: 20px;
+.feather-icon {
+  width: 25px; 
+  height: 25px; 
+  /* margin: 20px; */
 }
 
 /* Navbar */
@@ -124,14 +123,6 @@ a:hover {
 
 /* images */
 .big-city {
-  width: 200px;
-  height: 250px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.goose {
   width: 200px;
   height: 250px;
   margin-top: 20px;
@@ -271,7 +262,14 @@ hr {
   margin-top: 40px;
   margin-left: 10px;
   margin-right: 10px;
-  
+}
+
+.goose {
+  width: 250px;
+  height: 280px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 
