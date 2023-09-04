@@ -7,7 +7,7 @@ function ProjectsPage() {
       title: 'NoteTaker',
       description: 'Note taker app that allows one to save a note to local storage.',
       technologies: 'JavaScript, Express.js',
-      imageUrl: '/images/mountains.jpg',
+      imageUrl: '/images/notes.jpg',
       projectUrl: 'https://github.com/ricapi96/express-note-taker'
     },
     {
@@ -21,21 +21,21 @@ function ProjectsPage() {
       title: 'Sed ut perspiciatis',
       description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
       technologies: 'Lorem ipsum dolor sit amet',
-      imageUrl: '/images/mountains.jpg',
+      imageUrl: '/images/stonehenge.jpg',
       projectUrl: 'https://ricapi96.github.io/'
     },
     {
       title: 'Nemo enim',
       description: ' Quis autem vel eum iure reprehenderit qui in ea voluptate.',
       technologies: 'Lorem ipsum dolor sit amet',
-      imageUrl: '/images/mountains.jpg',
+      imageUrl: '/images/tag.jpg',
       projectUrl: 'https://ricapi96.github.io/'
     },
     {
       title: 'Ut enim ad',
       description: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.',
       technologies: 'Lorem ipsum dolor sit amet',
-      imageUrl: '/images/mountains.jpg',
+      imageUrl: '/images/matrix.jpg',
       projectUrl: 'https://ricapi96.github.io/'
     },
     // Add more projects 

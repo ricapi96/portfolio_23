@@ -130,6 +130,14 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.gaming, .ducks, .giza {
+  width: 350px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .coke {
   width: 250px;
   height: 250px;
@@ -255,7 +263,7 @@ hr {
 /* Contact Page */
 .contact {
   background-color: rgb(56, 111, 164);
-  /* display: flex; */
+  color: cornsilk;
   align-items: center;
   text-align: center;
   font-size: x-large;
