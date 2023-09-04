@@ -3,12 +3,14 @@ import React from 'react';
 import bigCity from '/images/city.png';
 import ducks from '/images/background3.jpg';
 import giza from '/images/giza.jpg';
+import gaming from '/images/gaming.jpg';
 import coke from '/images/coke.png';
+import 'animate.css';
 
 function AboutMePage() {
   return (
     <section className="about-me">
-      <h2 id='about'>About Me</h2>
+      <h2 id='about' className='animate__animated animate__flip'>About Me</h2>
       <p>
         Hi there! I'm Erica, a dedicated Front-end developer with a passion for coding and learning My journey began when I pursued a degree in computer science and engineering, where I gained a strong foundation in coding and problem-solving.
       </p>
@@ -23,6 +25,7 @@ function AboutMePage() {
         
         <p>When I'm not on the road, I'm likely immersed in the virtual worlds of video games, where creativity and strategy come together in exciting ways.
       </p>
+      <img src={gaming} alt="Playstation controller" className="gaming rounded-image" />
       <hr />
       
       <p>

@@ -7,7 +7,7 @@ import goose from '/images/goose.png';
 function ContactPage() {
   return (
     <section className="contact">
-      <h2 id='contact'>Contact Me</h2>
+      <h2 id='contact' className='animate__animated animate__rubberBand'>Contact Me</h2>
       <p>
         Have a project in mind or just want to say hi? Feel free to get in touch with me. I'm always open to new opportunities and collaborations.
       </p>

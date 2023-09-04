@@ -75,7 +75,7 @@ function StacksPage() {
 
   return (
     <section className="stacks">
-      <h2 id="stacks">Technical Stacks</h2>
+      <h2 id="stacks" className='animate__animated animate__rollIn'>Technical Stacks</h2>
       <p>Here are some of the technologies and tools I'm proficient in:</p>
       <ul className="stacks-list">
         <li>
