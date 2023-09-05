@@ -132,6 +132,7 @@ function StacksPage() {
         </li>
         {/* Add more items */}
       </ul>
+      <br />
     </section>
   );
 }

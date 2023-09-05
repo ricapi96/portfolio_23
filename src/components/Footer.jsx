@@ -13,6 +13,7 @@ function Footer() {
         <a href="https://www.instagram.com/rica.dev100" target="_blank" rel="noopener noreferrer">
           <img src="/images/instagram.svg" alt="Instagram" />
         </a>
+        <span className="year">2023</span>
       </div>
     </footer>
   );
