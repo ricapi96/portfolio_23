@@ -36,9 +36,18 @@ body {
   background-repeat: repeat-y;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  flex-flow: column nowrap;
+  min-height: 160vh; /*this seems to fix footer issue*/
   position: relative;
   z-index: 2;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  color: rgba(218, 245, 245, 0.988);
 }
 
 

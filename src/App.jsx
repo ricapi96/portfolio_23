@@ -1,37 +1,41 @@
 // src/App.jsx
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import AboutMePage from './pages/AboutMePage';
-import ProjectsPage from './pages/ProjectsPage';
-import StacksPage from './pages/StacksPage';
-// import Contact from './components/Contact';
-import Footer from './components/Footer';
-import ContactPage from './pages/ContactPage';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import AboutMePage from "./pages/AboutMePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import StacksPage from "./pages/StacksPage";
+import Footer from "./components/Footer";
+import ContactPage from "./pages/ContactPage";
+import "./App.css";
 
 function App() {
-
   return (
     <Router>
-    <div className="app">
-      
+      <div className="app">
         <Header />
         <Navbar />
-        <div className='main-content'>
-          {/* ... */}
+        <div className="main-content">
+          
           <Routes>
-          <Route path="/about" element={<AboutMePage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/stacks" element={<StacksPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+            {/* <Route path="/home" element={<HomePage />} /> */}
+            <Route path="/about" element={<AboutMePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/stacks" element={<StacksPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
-          </div>
+        </div>
 
         <Footer />
-      
-    </div>
+        {/* <div className="quote">
+          <p>
+            "Two roads diverged in a wood, and I— I took the one less traveled
+            by, And that has made all the difference."
+          </p>
+          <p>- Robert Frost</p>
+        </div> */}
+      </div>
     </Router>
   );
 }
