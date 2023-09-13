@@ -1,4 +1,4 @@
-// src/App.jsx
+// App.jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
@@ -8,6 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import StacksPage from "./pages/StacksPage";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
+import HomePage from "./pages/HomePage"; 
 import "./App.css";
 
 function App() {
@@ -17,9 +18,8 @@ function App() {
         <Header />
         <Navbar />
         <div className="main-content">
-          
           <Routes>
-            {/* <Route path="/home" element={<HomePage />} /> */}
+            <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutMePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/stacks" element={<StacksPage />} />
@@ -28,13 +28,6 @@ function App() {
         </div>
 
         <Footer />
-        {/* <div className="quote">
-          <p>
-            "Two roads diverged in a wood, and I— I took the one less traveled
-            by, And that has made all the difference."
-          </p>
-          <p>- Robert Frost</p>
-        </div> */}
       </div>
     </Router>
   );
