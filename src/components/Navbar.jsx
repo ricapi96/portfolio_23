@@ -3,15 +3,13 @@ import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 
 function Navbar() {
-  const handleHomeClick = () => {
-    window.location.reload();
-  };
+  
 
   return (
     <nav className="navbar">
       <ul className="nav-list">
         <li>
-          <RouterLink to="/" onClick={handleHomeClick}>
+          <RouterLink to="/">
             Home
           </RouterLink>
         </li>
