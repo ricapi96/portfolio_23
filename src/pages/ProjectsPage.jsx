@@ -14,29 +14,29 @@ function ProjectsPage() {
       title: '3-Dogs',
       description: 'A Dog website to showcase my furry friends.',
       technologies: 'HTML, CSS, JavaScript',
-      imageUrl: '/images/mountains.jpg',
+      imageUrl: '/images/heaven.jpg',
       projectUrl: 'https://ricapi96.github.io/3-dogs/'
     },
     {
-      title: 'Sed ut perspiciatis',
-      description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      technologies: 'Lorem ipsum dolor sit amet',
-      imageUrl: '/images/stonehenge.jpg',
-      projectUrl: 'https://ricapi96.github.io/'
+      title: 'DevCrowd',
+      description: 'A social media platform that lets Developers connect with eachother.',
+      technologies: 'MERN application',
+      imageUrl: '/images/dev-crowd.png',
+      projectUrl: 'https://github.com/ashak90/project-03-dev-crowd'
     },
     {
-      title: 'Nemo enim',
-      description: ' Quis autem vel eum iure reprehenderit qui in ea voluptate.',
-      technologies: 'Lorem ipsum dolor sit amet',
-      imageUrl: '/images/tag.jpg',
-      projectUrl: 'https://ricapi96.github.io/'
+      title: 'Tech Blog',
+      description: 'Blog app for writing blogs. Can save and comment on them, as well.',
+      technologies: 'Handlebars, Epress, Node, MySQL, JavaScript',
+      imageUrl: '/images/blog.jpg',
+      projectUrl: 'https://github.com/ricapi96/my-blogs'
     },
     {
-      title: 'Ut enim ad',
-      description: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.',
-      technologies: 'Lorem ipsum dolor sit amet',
-      imageUrl: '/images/matrix.jpg',
-      projectUrl: 'https://ricapi96.github.io/'
+      title: 'E-Commerce Backend',
+      description: 'E-Commerce app that allows users to shop for items from the database.',
+      technologies: 'Express, Sequelize, Node, MySQL, JavaScript',
+      imageUrl: '/images/e-commerce.jpg',
+      projectUrl: 'https://github.com/ricapi96/e-commerce-back-end'
     },
     // Add more projects 
   ];
