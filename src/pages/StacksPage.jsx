@@ -75,8 +75,8 @@ function StacksPage() {
 
   return (
     <section className="stacks">
-      <h2 id="stacks" className='animate__animated animate__rollIn'>Technical Stacks</h2>
-      <p>Here are some of the technologies and tools I'm proficient in:</p>
+      <h2 id="stacks" className='animate__animated animate__bounceInDown'>Technical Stacks</h2>
+      <p>Here are some of the technologies and tools I'm proficient in:</p><br />
       <ul className="stacks-list">
         <li>
           <img src={html} alt="HTML5" className="stack-icon" />

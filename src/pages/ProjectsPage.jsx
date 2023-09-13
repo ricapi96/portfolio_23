@@ -1,5 +1,6 @@
 // ProjectsPage.jsx
 import React from 'react';
+import 'animate.css';
 
 function ProjectsPage() {
   const projects = [
@@ -43,6 +44,7 @@ function ProjectsPage() {
 
   return (
     <div className="projects">
+      <h2 className="page-title animate__animated animate__wobble">Projects</h2>
       {projects.map((project, index) => (
         <div key={index} className="project">
           <div className="project-image-container">
