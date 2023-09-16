@@ -176,6 +176,14 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.goose {
+  width: 350px;
+  height: 380px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 .rounded-image {
   border: 10px solid #133C55;
   border-radius: 50px;
@@ -212,10 +220,10 @@ hr {
 }
 
 .page-title {
-  font-size: 2rem; /* Adjust the font size as needed */
-  font-weight: bold; /* Make the text bold */
-  text-align: center; /* Center-align the text */
-  margin-top: 20px; /* Add some top margin for spacing */
+  font-size: 2rem; 
+  font-weight: bold; 
+  text-align: center; 
+  margin-top: 20px; 
   
 }
 
@@ -316,15 +324,6 @@ hr {
   margin-left: 10px;
   margin-right: 10px;
 }
-
-.goose {
-  width: 250px;
-  height: 280px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
 
 /* Footer */
 .footer {
