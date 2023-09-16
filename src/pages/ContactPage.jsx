@@ -2,7 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import goose from '/images/goose.png'; 
+import coke from '/images/coke.png'; 
 
 function ContactPage() {
   return (
@@ -20,7 +20,7 @@ function ContactPage() {
       </p>
       <br />
       <div className='pics'>
-    <img src={goose} alt="Goose cartoon" className="goose rounded-image" />
+    <img src={coke} alt="Me with a coke" className="coke rounded-image" />
     <br />
     <br />
     <br />

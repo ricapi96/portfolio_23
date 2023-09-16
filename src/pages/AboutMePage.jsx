@@ -4,7 +4,7 @@ import bigCity from '/images/city.png';
 import ducks from '/images/background3.jpg';
 import giza from '/images/giza.jpg';
 import gaming from '/images/gaming.jpg';
-import coke from '/images/coke.png';
+import goose from '/images/goose.png';
 import 'animate.css';
 
 function AboutMePage() {
@@ -34,9 +34,12 @@ function AboutMePage() {
       
       <p>
         I'm excited to combine my technical skills with my passion for design to create intuitive user experiences that make a positive impact. Let's build something amazing together!
-      </p>
-      <img src={coke} alt="Me with a coke" className="coke rounded-image " />
-      <hr />
+      </p><br />
+      
+      <img src={goose} alt="Goose cartoon" className="goose rounded-image" />
+      
+      <br />
+      <br />
       
     </section>
   );
