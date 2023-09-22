@@ -325,6 +325,34 @@ hr {
   margin-right: 10px;
 }
 
+/* More about me Page */
+
+.more-about-me {
+  background-color: #8d5a0e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.btn-more-about-me {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #085121;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.btn-more-about-me:hover {
+  background-color: #0e4105;
+}
+
 /* Footer */
 .footer {
   background-color: #333;

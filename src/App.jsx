@@ -8,7 +8,8 @@ import ProjectsPage from "./pages/ProjectsPage";
 import StacksPage from "./pages/StacksPage";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
-import HomePage from "./pages/HomePage"; 
+import HomePage from "./pages/HomePage";
+import MoreAboutMePage from "./pages/MoreAboutMePage"; 
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/stacks" element={<StacksPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/moreaboutme" element={<MoreAboutMePage />} />
           </Routes>
         </div>
 

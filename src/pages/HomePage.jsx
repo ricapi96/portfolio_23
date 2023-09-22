@@ -1,5 +1,6 @@
 // Homepage.jsx
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -10,7 +11,9 @@ function HomePage() {
 
       
       <div className="content">
-        
+        <Link to="/moreaboutme" className="btn-more-about-me">
+          More About Me
+          </Link>
       </div>
     </div>
   );
