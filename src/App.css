@@ -328,8 +328,10 @@ hr {
 /* More about me Page */
 
 .more-about-me {
-  background-color: #8d5a0e;
+  /* background-color: #8d5a0e; */
+  color: antiquewhite;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
