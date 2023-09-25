@@ -10,11 +10,11 @@ function HomePage() {
       </div>
 
       
-      <div className="content">
+      {/* <div className="content">
         <Link to="/moreaboutme" className="btn-more-about-me">
           More About Me
           </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
