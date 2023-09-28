@@ -12,7 +12,7 @@ function Contact() {
         Have a project in mind or just want to say hi? Feel free to get in touch with me. I'm always open to new opportunities and collaborations.
       </p>
       <p>
-        You can reach me via email at <a href="enroquemore@gmail.com">enroquemore@gmail.com</a>, or connect with me on <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        You can reach me via email at <a href="mailto:enroquemore@gmail.com">enroquemore@gmail.com</a>, or connect with me on <a href="https://www.linkedin.com/in/ericaroquemore" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>.</p>
       <p>
