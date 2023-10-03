@@ -325,8 +325,8 @@ hr {
   margin-right: 10px;
 }
 
-/* .modal {
-  display: none;
+.modal {
+  /* display: none; */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -353,7 +353,7 @@ hr {
   right: 0;
   padding: 10px;
   cursor: pointer;
-} */
+}
 
 
 /* Contact form */
@@ -401,8 +401,8 @@ button[type="submit"]:hover {
 
 /* More about me Page */
 
-.more-about-me {
-  /* background-color: #8d5a0e; */
+/* .more-about-me {
+ 
   color: antiquewhite;
   display: flex;
   flex-direction: column;
@@ -427,7 +427,7 @@ button[type="submit"]:hover {
 
 .btn-more-about-me:hover {
   background-color: #0e4105;
-}
+} */
 
 /* Footer */
 .footer {
