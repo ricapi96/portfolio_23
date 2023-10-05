@@ -21,6 +21,7 @@ function ContactPage() {
   const handleSubmit = () => {
     
     setSubmitted(true);
+    closeForm();
   };
 
   return (
