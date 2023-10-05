@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-// import coke from '/images/coke.png';
 import ContactForm from '../components/ContactForm';
 
 function ContactPage() {
@@ -15,6 +14,7 @@ function ContactPage() {
   };
 
   const closeForm = () => {
+    console.log('Closing the form');
     setShowForm(false);
   };
 
@@ -57,22 +57,5 @@ function ContactPage() {
     </section>
   );
 }
-      
-      
-    //   <div className='pics'>
-    // <img src={coke} alt="Me with a coke" className="coke rounded-image" />
-    // <br />
-    // <br />
-    // <p>Feel free to send me a message!</p>
-    //   <ContactForm />
-    //   <br />
-    //   <br />
-    //   <br />
-    // </div> 
-      
-    // </section>
-    
-//   );
-// }
 
 export default ContactPage;
