@@ -38,23 +38,7 @@ function ContactPage() {
         Let's work together to bring your ideas to life!
       </p>
 
-      <button onClick={openForm}>Message Me</button>
-
-      {/* Message modal */}
-      {showForm && !submitted && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={closeForm}>&times;</span>
-            <ContactForm onSubmit={handleSubmit} />
-          </div>
-        </div>
-      )}
-
-      {submitted && (
-        <div className="success-message">
-          Thank you for your message! I'll get back to you soon.
-        </div>
-      )}
+      
     </section>
   );
 }
