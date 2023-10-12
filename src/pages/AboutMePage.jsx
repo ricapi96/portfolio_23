@@ -1,10 +1,6 @@
 // AboutMePage.jsx
 import React from "react";
 import bigCity from "/images/city.png";
-import ducks from "/images/background3.jpg";
-import giza from "/images/giza.jpg";
-import gaming from "/images/gaming.jpg";
-import goose from "/images/goose.png";
 import "animate.css";
 
 function AboutMePage() {
@@ -26,41 +22,23 @@ function AboutMePage() {
       </p>
       <img
         src={bigCity}
-        alt="Me with city background"
+        alt="me with city background"
         className="big-city rounded-image"
       />
       <br />
       <p>
-        When I'm not working on web design, I enjoy spending time outdoors,
-        often with my furry and feathered companions, including my dogs and
-        ducks. I have a genuine passion for animals and the natural world. It's
-        a refreshing break from the digital realm and a reminder of the beauty
-        in simplicity.
+        When I'm not working on web development, I enjoy spending time outdoors.
+        It offers a refreshing break from the digital realm, and I find
+        inspiration in nature's simplicity. In my downtime, I'm an avid
+        traveler, seeking inspiration from diverse cultures and landscapes. I
+        also love being immersed in the virtual worlds of video games, where
+        creativity and strategy come together in exciting ways.
       </p>
-      <img
-        src={ducks}
-        alt="Ducks with duckling"
-        className="ducks rounded-image"
-      />
-      <br />
-      <p>
-        In my downtime, I'm an avid traveler, seeking inspiration from diverse
-        cultures and landscapes. I'm also deeply enthusiastic about ancient
-        civilizations and history.
-      </p>
-      <img src={giza} alt="Pyramids" className="giza rounded-image" />
+
       <br />
 
-      <p>
-        When I'm not on the road, I'm likely immersed in the virtual worlds of
-        video games, where creativity and strategy come together in exciting
-        ways.
-      </p>
-      <img
-        src={gaming}
-        alt="Playstation controller"
-        className="gaming rounded-image"
-      />
+      <br />
+
       <hr />
 
       <p>
@@ -69,8 +47,6 @@ function AboutMePage() {
         build something amazing together!
       </p>
       <br />
-
-      <img src={goose} alt="Goose cartoon" className="goose rounded-image" />
 
       <br />
       <br />
