@@ -24,8 +24,6 @@ body {
   display: flex;
   flex-direction: column;
   background-size: cover;
-  
-  
 }
 
 /* App Styles */
@@ -133,6 +131,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   min-height: 100vh;
   font-size: x-large;
   font-style: italic;
@@ -144,6 +143,14 @@ a:hover {
 .big-city {
   width: 200px;
   height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.me {
+  width: 300px;
+  height: 320px;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
