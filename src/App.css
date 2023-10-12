@@ -149,30 +149,6 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.gaming, .ducks, .giza {
-  width: 350px;
-  height: 250px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.coke {
-  width: 250px;
-  height: 250px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.goose {
-  width: 350px;
-  height: 380px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
 .rounded-image {
   border: 10px solid #133C55;
   border-radius: 50px;
