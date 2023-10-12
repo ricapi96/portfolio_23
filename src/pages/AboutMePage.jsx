@@ -1,6 +1,7 @@
 // AboutMePage.jsx
 import React from "react";
 import bigCity from "/images/city.png";
+import me from "/images/me.jpg";
 import "animate.css";
 
 function AboutMePage() {
@@ -12,22 +13,23 @@ function AboutMePage() {
       <p>Hi there!</p>
       <p>
         I'm Erica, a passionate Front-end developer with a background in
-        computer science and engineering. I hold a Full-Stack Development
+        computer science and engineering. I earned a Full-Stack Development
         certificate from{" "}
         <a href="https://www.edx.org" target="_blank" rel="noopener noreferrer">
           edX
         </a>{" "}
         and currently, I work for the same company, where I also teach Web
-        Development. Coding and continuous learning drive me!
+        Development. I'm motivated by coding and a constant quest for learning!
       </p>
+      <br />
       <img
-        src={bigCity}
-        alt="me with city background"
-        className="big-city rounded-image"
+        src={me}
+        alt="just a picture of me"
+        className="me rounded-image"
       />
       <br />
       <p>
-        When I'm not working on web development, I enjoy spending time outdoors.
+        When I'm not occupied with web development, I enjoy spending time outdoors.
         It offers a refreshing break from the digital realm, and I find
         inspiration in nature's simplicity. In my downtime, I'm an avid
         traveler, seeking inspiration from diverse cultures and landscapes. I
@@ -43,9 +45,10 @@ function AboutMePage() {
 
       <p>
         I'm excited to combine my technical skills with my passion for design to
-        create intuitive user experiences that make a positive impact. Let's
-        build something amazing together!
-      </p>
+        create intuitive user experiences that make a positive impact.</p>
+        <br />
+        <h3> Let's build something amazing together!</h3>
+      
       <br />
 
       <br />
