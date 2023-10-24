@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://open.spotify.com/user/31phfowqlgmbprr6qtzpwnlhph5y" target="_blank" rel="noopener noreferrer">
           <img src="/images/spotify.png" alt="Spotify" />
         </a>
-        <a href="https://www.instagram.com/rica.dev100" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/en_roque" target="_blank" rel="noopener noreferrer">
           <img src="/images/instagram.svg" alt="Instagram" />
         </a>
         <span className="year">2023</span>
