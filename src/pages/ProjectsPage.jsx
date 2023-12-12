@@ -15,7 +15,7 @@ function ProjectsPage() {
       title: '3-Dogs',
       description: 'A Dog website to showcase my furry friends.',
       technologies: 'HTML, CSS, JavaScript',
-      imageUrl: '/images/heaven.jpg',
+      imageUrl: '/images/three-dogs.png',
       projectUrl: 'https://ricapi96.github.io/3-dogs/'
     },
     {
@@ -39,7 +39,13 @@ function ProjectsPage() {
       imageUrl: '/images/e-commerce.jpg',
       projectUrl: 'https://github.com/ricapi96/e-commerce-back-end'
     },
-    // Add more projects 
+    {
+      title: 'Wave Walker',
+      description: 'Wave Walker is a sleek, user-friendly fitness tracker app designed for swimming enthusiasts and fitness buffs, offering intuitive tracking of workouts, progress visualization, and personalized fitness insights.',
+      technologies: 'React, Vite, Node.js, Express, MongoDB, Mongoose, GraphQL, Apollo Server, JWT, HTML5, CSS3, Git',
+      imageUrl: '/images/wave-walker.png',
+      projectUrl: 'https://github.com/ricapi96/wave-walker'
+    }, 
   ];
 
   return (
