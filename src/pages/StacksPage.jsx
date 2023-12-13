@@ -16,6 +16,26 @@ import mongoose from "/images/mongoose.png";
 import mongoDB from "/images/mongoDB.png";
 import react from "/images/react.png";
 
+function TechnologyCard({ name, icon, description }) {
+  const [isHovered, setIsHovered] = React.useState(false);
+
+  return (
+    <div 
+      className="tech-card" 
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <img src={icon} alt={name} className="tech-icon" />
+      {isHovered && (
+        <div className="tech-info">
+          <h4>{name}</h4>
+          <p>{description}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function StacksPage() {
   const stacks = [
     {
@@ -76,65 +96,20 @@ function StacksPage() {
   return (
     <section className="stacks">
       <h2 id="stacks" className='animate__animated animate__bounceInDown'>Technical Stacks</h2>
-      <p>Here are some of the technologies and tools I'm proficient in:</p><br />
-      <ul className="stacks-list">
-        <li>
-          <img src={html} alt="HTML5" className="stack-icon" />
-          HTML
-        </li>
-        <li>
-          <img src={css} alt="CSS" className="stack-icon" />
-          CSS
-        </li>
-        <li>
-          <img src={javascript} alt="JavaScript" className="stack-icon" />
-          JavaScript (ES6)
-        </li>
-        <li>
-          <img src={jquery} alt="jQuery" className="stack-icon" />
-          jQuery
-        </li>
-        <li>
-          <img src={api} alt="API's" className="stack-icon" />
-          API's
-        </li>
-        <li>
-          <img src={bootstrap} alt="Bootstrap" className="stack-icon" />
-          Bootstrap
-        </li>
-        <li>
-          <img src={express} alt="Express" className="stack-icon" />
-          Express
-        </li>
-        <li>
-          <img src={node} alt="Node" className="stack-icon" />
-          Node
-        </li>
-        <li>
-          <img src={mysql} alt="MySQL" className="stack-icon" />
-          MySQL
-        </li>
-        <li>
-          <img src={sequelize} alt="Sequelize" className="stack-icon" />
-          Sequelize
-        </li>
-        <li>
-          <img src={mongoose} alt="Mongoose" className="stack-icon" />
-          Mongoose
-        </li>
-        <li>
-          <img src={mongoDB} alt="MongoDB" className="stack-icon" />
-          MongoDB
-        </li>
-        <li>
-          <img src={react} alt="React" className="stack-icon" />
-          React
-        </li>
-        {/* Add more items */}
-      </ul>
-      <br />
+      <p>Here are some of the technologies and tools I'm proficient in:</p>
+      <div className="stacks-grid">
+        {stacks.map(stack => (
+          <TechnologyCard 
+            key={stack.name} 
+            name={stack.name} 
+            icon={stack.icon} 
+            description=""
+          />
+        ))}
+      </div>
     </section>
   );
 }
+
 
 export default StacksPage;

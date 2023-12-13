@@ -263,26 +263,55 @@ hr {
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   padding: 20px;
-  
 }
 
-.stacks-list {
-  list-style: none;
-  padding-left: 0;
+.stacks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
-.stacks-list li {
+.tech-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.tech-icon {
+  width: 180px; /* Adjust the size as needed */
+  height: auto;
   margin-bottom: 10px;
 }
 
-.stacks-list li .stack-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
+.tech-info {
+  display: none;
 }
+
+.tech-card:hover .tech-info {
+  display: block;
+}
+
+/* Additional styling for the text */
+.tech-info h4 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.tech-info p {
+  font-size: 0.9rem;
+}
+
 
 /* Contact Page */
 .contact {
