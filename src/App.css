@@ -210,10 +210,14 @@ hr {
   background-color: #995D5A;
   border-radius: 8px 8px 0 0;
   padding: 10px;
+  overflow: hidden;
+
 }
 
 .project-image {
-  width: 100%; 
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
   max-height: 200px; 
   border-radius: 8px 8px 0 0; 
 }
